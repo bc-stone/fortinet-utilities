@@ -44,7 +44,7 @@ def get_routes():
         if content_filter
         else f"{host}{endpoint}{token}"
     )
-    
+
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
 
@@ -54,13 +54,12 @@ def get_routes():
             print("Something went wrong.  Is the url correct?  Exiting...")
             sys.exit()
 
-
-        for i in (r["results"]):
+        for i in r["results"]:
             table.add_row(i["ip_mask"], i["gateway"], i["interface"], i["type"])
-   
+
         console = Console()
         console.print(table)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     get_routes()
