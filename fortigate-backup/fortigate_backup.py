@@ -62,7 +62,7 @@ def main():
     match choice.lower():
         case "y":
             pwd1 = getpass("Enter a password (minimum 8 characters): ")
-            if len(pwd1) <= 8:
+            if len(pwd1) < 8:
                 print("Password is too short. Exiting...")
                 sys.exit(1)
             else:
