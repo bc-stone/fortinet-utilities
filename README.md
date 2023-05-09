@@ -10,3 +10,4 @@ This repo contains a helper script entitled 'get_secrets.py' that should help to
 4. <b>list-botnet-ips</b> : outputs a csv file of all IP-based botnet entries in the FortiGuard botnet database
 5. <b>list-botnet-domains</b> : outputs a csv file of all domain-based botnet entries in the FortiGuard botnet database
 6. <b>get-rate-based-sigs</b> : outputs a csv file of rate-based IPS signatures, their triggers and thresholds
+7. <b>get-ip-objects</b> : outputs a csv file of all the IP address objects on a Fortigate firewall
