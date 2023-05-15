@@ -12,3 +12,4 @@ This repo contains a helper script entitled 'get_secrets.py' that should help to
 6. <b>get-rate-based-sigs</b> : outputs a csv file of rate-based IPS signatures, their triggers and thresholds
 7. <b>get-ip-objects</b> : outputs a csv file of all the IP address objects on a Fortigate firewall
 8. <b>get-license-info</b> : gets the current license and registration status
+9. <b>delete-ssl-vpn-session</b> : terminates the provided SSL VPN session
